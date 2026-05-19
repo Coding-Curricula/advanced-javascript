@@ -41,4 +41,18 @@ const anotherPerson = {
 
 console.log(anotherPerson, 'this is another person created using destructured values')
 
-// some changes to the code here
+// new example with a spread operator (...)
+const numbers = [1, 2, 3, 4, 5]
+console.log(numbers, 'original numbers array')
+
+const newNumbers = [...numbers, 6, 7, 8, 9, 10]
+console.log(newNumbers, "new numbers array using spread operator")
+
+// old school concatenation
+let someonesName = "Alice"
+const someGreeting = "Hello " +  someonesName + "!"
+console.log(someGreeting, 'using traditional string concatenation')
+
+// ES6 template literals
+const someGreetingTemplate = `good morning to you ${someonesName}!`
+console.log(someGreetingTemplate, 'using template literals')
