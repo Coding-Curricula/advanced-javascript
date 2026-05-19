@@ -1,3 +1,5 @@
+import { multiply, divide } from "./math.js"
+
 console.log('start of file')
 
 // traditional function
@@ -56,3 +58,6 @@ console.log(someGreeting, 'using traditional string concatenation')
 // ES6 template literals
 const someGreetingTemplate = `good morning to you ${someonesName}!`
 console.log(someGreetingTemplate, 'using template literals')
+
+console.log(multiply(4, 5), 'using multiply function from math.js')
+console.log(divide(20, 4), 'using divide function from math.js')
