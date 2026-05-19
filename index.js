@@ -40,3 +40,5 @@ const anotherPerson = {
 }
 
 console.log(anotherPerson, 'this is another person created using destructured values')
+
+// some changes to the code here
